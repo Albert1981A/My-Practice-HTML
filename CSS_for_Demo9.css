@@ -1,0 +1,18 @@
+
+.MySuperStyle {
+    color: blue;
+    background-color: chartreuse;
+    width: max-content;
+}
+
+h3 {
+    color: brown;
+}
+
+input {
+    background-color: gray;
+}
+
+table {
+    background-color: aquamarine;
+}

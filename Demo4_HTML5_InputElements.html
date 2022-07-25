@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 5 Input Elements</title>
+</head>
+<body>
+    <h1>HTML5 Input Elements</h1>
+
+    <!-- Input for numbers only -->
+    <span>Input for numbers only: </span> <input type="number" />
+    <br /> <br />
+    <span>Input for numbers between 10 to 50: </span> <input type="number" min="10" max="50" />
+    <br /> <br />
+    <span>Input of Date: </span> <input type="date" />
+    <br /> <br />
+
+    <!-- Range -->
+    <span>Range input between 10 to 20 with steps of 2: </span><input type="range" min="10" max="20" value="15" step="2">
+    <br /> <br />
+
+    <!-- Email -->
+    <form action="">
+        <span>Enter Email:</span><input type="email" />
+        <input type="submit" />
+    </form>
+    <br /> 
+
+    <!-- Meter -->
+    <span>Battery % : (50% value)</span> <meter min="0" max="100" value="50" low="20"></meter>
+    <br /> <br />
+    <span>Battery % : (Low value)</span> <meter min="0" max="100" value="10" low="20"></meter>
+    <br /> <br />
+
+</body>
+</html>

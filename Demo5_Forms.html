@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    
+    <!-- 
+        Forms: 
+        - Each field MUST have a name
+        - "action" is the destination of the data
+        - "method" the data will be sent in one of two methods:
+            1. "GET" All the data will be sent in the URL
+            2. "POST" All the data will be sent with the request body
+    -->
+    <form action="Demo6_GetFormData.html" method="GET">
+        <h3>Login</h3>
+        <span>User name:</span> <input type="text" name="username" /> <br />
+        <span>Password:</span>  <input type="password" name="password" /> <br />
+        <input type="submit" value="LOGIN" />
+    </form>
+
+</body>
+</html>
